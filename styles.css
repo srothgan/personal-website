@@ -43,6 +43,11 @@ nav {
     list-style: none;
     display: flex;
     gap: 2rem;
+    align-items: center; 
+    margin: 0; 
+}
+.nav-links li {
+    margin: 0; 
 }
 
 .nav-links a {
@@ -50,6 +55,8 @@ nav {
     color: #666;
     font-weight: 500;
     transition: color 0.2s;
+    line-height: 1;
+    display: block; 
 }
 
 .nav-links a:hover,
